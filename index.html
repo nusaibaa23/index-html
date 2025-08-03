@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Flowers</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .flower-box {
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .flower-box img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .flower-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .price {
+      color: #27ae60;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .add-btn {
+      background-color: #2980b9;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .add-btn:hover {
+      background-color: #e5ff00;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Flowers</h1>
+
+  <div class="container">
+    <div class="flower-box">
+      <img src="sample-flower-image.png" alt="Flower 1">
+      <p class="flower-name">Rose</p>
+      <p class="price">$5.99</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <div class="flower-box">
+      <img src="sample-flower-image.png" alt="Flower 2">
+      <p class="flower-name">Tulip</p>
+      <p class="price">$4.50</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <div class="flower-box">
+      <img src="sample-flower-image.png" alt="Flower 3">
+      <p class="flower-name">Lily</p>
+      <p class="price">$6.75</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <div class="flower-box">
+      <img src="sample-flower-image.png" alt="Flower 4">
+      <p class="flower-name">Sunflower</p>
+      <p class="price">$3.99</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <div class="flower-box">
+      <img src="sample-flower-image.png" alt="Flower 5">
+      <p class="flower-name">Daisy</p>
+      <p class="price">$2.50</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <div class="flower-box">
+      <img src="sample-flower-image.png" alt="Flower 6">
+      <p class="flower-name">Orchid</p>
+      <p class="price">$7.25</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <div class="flower-box">
+      <img src="sample-flower-image.png" alt="Flower 7">
+      <p class="flower-name">Jasmine</p>
+      <p class="price">$4.80</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <div class="flower-box">
+      <img src="sample-flower-image.png" alt="Flower 8">
+      <p class="flower-name">Lavender</p>
+      <p class="price">$5.20</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+  </div>
+
+</body>
+</html>
